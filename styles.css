@@ -13,13 +13,14 @@ h1{
         text-align: center;
         text-transform: uppercase;
     }
-    .medium-pizza{
-        background-color: orange;
+    .pizza{
         border: 1px solid;
         padding: 1em;
         border-radius: 1em;
         margin: 10px;
-        text-align: center;
+    }
+    .medium-pizza{
+        background-color: orange;
     }
     .medium-pizza img{
         width: 40%;
@@ -32,22 +33,12 @@ h1{
     }
     .large-pizza{
         background-color: yellow;
-        border: 1px solid;
-        padding: 1em;
-        border-radius: 1em;
-        margin: 10px;
-        text-align: center;
     }
     .large-pizza img{
         width: 80%;
     }
     .small-pizza{
         background-color: purple;
-        border: 1px solid;
-        padding: 1em;
-        border-radius: 1em;
-        margin: 10px;
-        text-align: center;
     }
     .small-pizza img{
         width: 30%;
@@ -58,4 +49,11 @@ h1{
     }
     
 }
+
+
+
+
+
+
+
 
