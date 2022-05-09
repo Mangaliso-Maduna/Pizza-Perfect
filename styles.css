@@ -4,7 +4,15 @@ body{
 h1{
     text-align: center;
 }
-
+.large-pizza img{
+    width: 80%;
+}
+.medium-pizza img{
+    width: 50%;
+}
+.small-pizza img{
+    width: 30%;
+}
 @media (min-width:768px) {
     .pizzas{
         display: flex;
@@ -22,9 +30,7 @@ h1{
     .medium-pizza{
         background-color: orange;
     }
-    .medium-pizza img{
-        width: 40%;
-    }
+    
     .footer{
         border: 1px solid;
         padding: 1em;
@@ -34,15 +40,11 @@ h1{
     .large-pizza{
         background-color: yellow;
     }
-    .large-pizza img{
-        width: 80%;
-    }
+    
     .small-pizza{
         background-color: purple;
     }
-    .small-pizza img{
-        width: 30%;
-    }
+    
 
     .footer{
         background-color: yellowgreen;
