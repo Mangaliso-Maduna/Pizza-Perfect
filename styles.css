@@ -1,0 +1,61 @@
+body{
+    background-color: cornflowerblue;
+}
+h1{
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .pizzas{
+        display: flex;
+    }
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .medium-pizza{
+        background-color: orange;
+        border: 1px solid;
+        padding: 1em;
+        border-radius: 1em;
+        margin: 10px;
+        text-align: center;
+    }
+    .medium-pizza img{
+        width: 40%;
+    }
+    .footer{
+        border: 1px solid;
+        padding: 1em;
+        border-radius: 1em;
+        margin: 10px;
+    }
+    .large-pizza{
+        background-color: yellow;
+        border: 1px solid;
+        padding: 1em;
+        border-radius: 1em;
+        margin: 10px;
+        text-align: center;
+    }
+    .large-pizza img{
+        width: 80%;
+    }
+    .small-pizza{
+        background-color: purple;
+        border: 1px solid;
+        padding: 1em;
+        border-radius: 1em;
+        margin: 10px;
+        text-align: center;
+    }
+    .small-pizza img{
+        width: 30%;
+    }
+
+    .footer{
+        background-color: yellowgreen;
+    }
+    
+}
+
